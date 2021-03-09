@@ -39,7 +39,7 @@ const HomeNavigator: React.FC = () => {
   const screenOptions: StackNavigationOptions = {
     headerTitle: '',
     headerLeft: () => <Typography variant="title-3">Olá {name}</Typography>,
-    ...(uri && {headerRight: () => <Avatar source={{uri}} />}),
+    ...(uri && {headerRight: () => <Avatar menu source={{uri}} />}),
     headerLeftContainerStyle: {marginLeft: px2ddp(10)},
     headerRightContainerStyle: {marginRight: px2ddp(10)},
     cardStyle: {backgroundColor},

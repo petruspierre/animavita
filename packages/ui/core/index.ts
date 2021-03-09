@@ -1,4 +1,4 @@
-export {default as Avatar} from './Avatar';
+export {default as Avatar} from './Avatar/Avatar';
 export {default as Button} from './Button/Button';
 export {default as Typography} from './Typography';
 export {default as LoadingBottomBar} from './LoadingBottomBar';

@@ -5,7 +5,7 @@ import FontAwesomeIcons from 'react-native-vector-icons/FontAwesome';
 import {useTheme, px2ddp} from '@animavita/theme';
 import {LinearGradient} from 'expo-linear-gradient';
 
-import Avatar, {AvatarProps} from '../Avatar';
+import Avatar, {AvatarProps} from '../Avatar/Avatar';
 import {Space} from '../../layout';
 
 const BorderRadiusStyle = css`
